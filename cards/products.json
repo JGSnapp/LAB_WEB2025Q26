@@ -1,0 +1,100 @@
+[
+    {
+        "id":  1,
+        "name":  "Берсерк",
+        "genre":  "Тёмное фэнтези",
+        "price":  990,
+        "image":  "cards/berserk.png"
+    },
+    {
+        "id":  2,
+        "name":  "Человек-бензопила",
+        "genre":  "Экшен · Фэнтези",
+        "price":  690,
+        "image":  "cards/chainsaw.png"
+    },
+    {
+        "id":  3,
+        "name":  "Тетрадь смерти",
+        "genre":  "Триллер · Детектив",
+        "price":  790,
+        "image":  "cards/death_note.png"
+    },
+    {
+        "id":  4,
+        "name":  "Атака титанов",
+        "genre":  "Экшен · Драма",
+        "price":  850,
+        "image":  "cards/AoT.png"
+    },
+    {
+        "id":  5,
+        "name":  "Клинок, рассекающий демонов",
+        "genre":  "Приключения · Фэнтези",
+        "price":  720,
+        "image":  "cards/demon_slayer.png"
+    },
+    {
+        "id":  6,
+        "name":  "Евангелион",
+        "genre":  "Фантастика · Драма",
+        "price":  890,
+        "image":  "cards/evangelion.png"
+    },
+    {
+        "id":  7,
+        "name":  "Хеллсинг",
+        "genre":  "Мистика · Экшен",
+        "price":  950,
+        "image":  "cards/hellsing.png"
+    },
+    {
+        "id":  8,
+        "name":  "Выдающиеся звери",
+        "genre":  "Драма · Детектив",
+        "price":  750,
+        "image":  "cards/beastars.png"
+    },
+    {
+        "id":  9,
+        "name":  "Класс убийц",
+        "genre":  "Экшен · Комедия",
+        "price":  690,
+        "image":  "cards/assasination_classroom.png"
+    },
+    {
+        "id":  10,
+        "name":  "Ковбой Бибоп",
+        "genre":  "Фантастика · Приключения",
+        "price":  890,
+        "image":  "cards/cowboy_bibop.png"
+    },
+    {
+        "id":  11,
+        "name":  "Дороро",
+        "genre":  "Тёмное фэнтези · Приключения",
+        "price":  790,
+        "image":  "cards/dororo.png"
+    },
+    {
+        "id":  12,
+        "name":  "Невероятные приключения ДжоДжо: Каменный океан",
+        "genre":  "Экшен · Приключения",
+        "price":  950,
+        "image":  "cards/jojo_stone_ocean.png"
+    },
+    {
+        "id":  13,
+        "name":  "Реинкарнация безработного",
+        "genre":  "Фэнтези · Приключения",
+        "price":  850,
+        "image":  "cards/mushoku_tensei.png"
+    },
+    {
+        "id":  14,
+        "name":  "Паразит",
+        "genre":  "Фантастика · Триллер",
+        "price":  790,
+        "image":  "cards/parasite.png"
+    }
+]

@@ -142,6 +142,36 @@ button:hover,
   font-weight: bold;
 }
 
+.cart {
+  padding: 20px 0 40px;
+  border-top: 1px solid #dac28e;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e4d8eb;
+}
+
+.cart-item h3 {
+  flex: 1;
+  min-width: 160px;
+}
+
+.cart-item input {
+  display: block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+button:disabled {
+  background: #75667d;
+  cursor: default;
+}
+
 .checkout {
   color: #352340;
   width: 90%;

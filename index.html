@@ -15,7 +15,8 @@
         </a>
         <nav>
           <a href="#catalog">Каталог</a>
-          <button id="open-order" type="button">Создать заказ</button>
+          <a href="#cart">Корзина (<span id="cart-count">0</span>)</a>
+          <button id="open-order" type="button" disabled>Оформить заказ</button>
         </nav>
       </div>
     </header>
@@ -33,74 +34,18 @@
           <div>
             <h2>В твою коллекцию</h2>
           </div>
-          <span class="section-note">8 изданий · выбирай своё</span>
+          <span id="product-count"></span>
         </div>
-        <div class="product-grid">
-          <article class="product-card">
-            <img src="cards/berserk.png" alt="Обложка CD-издания аниме «Берсерк»" loading="lazy">
-            <p class="genre">Тёмное фэнтези</p>
-            <h3>Берсерк</h3>
-            <p class="price">990 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
+        <p id="catalog-message">Загрузка товаров...</p>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
 
-          <article class="product-card">
-            <img src="cards/chainsaw.png" alt="Обложка CD-издания аниме «Человек-бензопила»" loading="lazy">
-            <p class="genre">Экшен · Фэнтези</p>
-            <h3>Человек-бензопила</h3>
-            <p class="price">690 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/death_note.png" alt="Обложка CD-издания аниме «Тетрадь смерти»" loading="lazy">
-            <p class="genre">Триллер · Детектив</p>
-            <h3>Тетрадь смерти</h3>
-            <p class="price">790 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/AoT.png" alt="Обложка CD-издания аниме «Атака титанов»" loading="lazy">
-            <p class="genre">Экшен · Драма</p>
-            <h3>Атака титанов</h3>
-            <p class="price">850 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/demon_slayer.png" alt="Обложка CD-издания аниме «Клинок, рассекающий демонов»" loading="lazy">
-            <p class="genre">Приключения · Фэнтези</p>
-            <h3>Клинок, рассекающий демонов</h3>
-            <p class="price">720 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/evangelion.png" alt="Обложка CD-издания аниме «Евангелион»" loading="lazy">
-            <p class="genre">Фантастика · Драма</p>
-            <h3>Евангелион</h3>
-            <p class="price">890 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/hellsing.png" alt="Обложка CD-издания аниме «Хеллсинг»" loading="lazy">
-            <p class="genre">Мистика · Экшен</p>
-            <h3>Хеллсинг</h3>
-            <p class="price">950 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-          <article class="product-card">
-            <img src="cards/beastars.png" alt="Обложка CD-издания аниме «Выдающиеся звери»" loading="lazy">
-            <p class="genre">Драма · Детектив</p>
-            <h3>Выдающиеся звери</h3>
-            <p class="price">750 ₽</p>
-            <button type="button">Добавить в корзину</button>
-          </article>
-
-        </div>
+      <section class="cart" id="cart">
+        <h2>Корзина</h2>
+        <p id="cart-empty">Корзина пуста. Добавь товары из каталога.</p>
+        <p id="storage-message" hidden></p>
+        <div id="cart-items"></div>
+        <p class="price">Итого: <span id="cart-total">0 ₽</span></p>
       </section>
 
       <dialog class="checkout" id="checkout">
